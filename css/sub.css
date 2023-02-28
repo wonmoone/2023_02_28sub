@@ -1,0 +1,61 @@
+ @charset "UTF-8";
+
+ #sub{width: 1260px; height:6600px; background-color: blueviolet; margin:0 auto; padding: 36px;}
+ #submenu{width:1200px; height: 50px; margin: 0 auto; background-color: rgb(216, 201, 230);}
+ #submenu >ul >li{font-size: 15px; font-weight: bold; float: left; padding: 15px;}
+ 
+
+#productimg {width:600px;  height: 760px; margin: 0 0 0 30px; float: left; background-color:red;}
+ #productimg > #box >#product > ul >li {float:left; margin:5px 10px 0 0;}
+ #productimg > #box >#product > ul >li:hover {cursor:pointer;}
+      #productimg >#box {width:510px; height:470px; background-color:rgb(119, 117, 104); margin: 44px 0 0 43px;}
+      #productimg > #box >#product {width:100%; height:150px; margin: 20px 0 0 10px; background-color:gold;}
+      #productimg > #box >.w1 {width:100%; height:100%;}
+      #productimg > #box >#product> ul> li >img {width:100px; height: 100px; margin: 0 0 0 15px; }
+
+      #product{width:600px; height: 760px; float:right; margin:0 30px 0 0px; background-color: rgb(148, 184, 231);}
+ #product >h1{font-size: 25px; font-weight: bold;  padding: 20px; margin: 35px 0 0 0px;}
+ #product >p{font-size: 15px; line-height: 30px; padding: 15px; margin:-25px 0 0 10px; color: rgb(104, 104, 104);}
+ #product >h2{font-size: 20px; font-weight: bold;  padding: 15px;  margin:-22px 0 0 10px;}
+ table{font-size: 18px; margin:0 0 0 20px; width:500px; border-top:2px solid #999; border-bottom:2px solid #999;  }
+ .table-td{padding: 12px; font-weight: bold;}
+ .table-th{padding: 12px; color:#000;}
+ #total{font-size: 25px; color: #000; font-weight: bold; padding: 12px;}
+
+select{height: 30px;}
+#option{width:300px;}
+#add{width:300px;}
+#number{width: 100px;}
+
+button{ width: 120px; height: 50px; margin: 4px; cursor: pointer; display: inline-block; float: left;}
+#cart >button{width:140px; background-color:#f0f0f0; margin: 14px 0 0 25px; border-radius:1px; padding:10px 20px; color:#000000; border:none;  border:1px solid  #000000; }
+#buy >button {width:140px; background-color:#f0f0f0; margin: 14px 0 0 10px; border-radius:1px; padding:10px 20px; color:#000000; border:none; border:1px solid  #000000; }
+#present >button{background-color:#fff;margin: 14px 0 0 20px; border-radius:1px; padding:10px 20px; color:#000000; border:none;  border:1px solid  #000000;}
+#heart >button {font-size: 40px; width:55px; margin: 14px 0 0 10px; text-align: center; background-color:#fff; border-radius:1px; color:#000000; border:none;  border:1px solid  #000000; }
+#cart >button:hover{background-color:#000000; color: #fff;}
+#buy >button:hover{background-color:#000000; color: #fff;}
+#present >button:hover{background-color:#000000; color: #fff;}
+#heart >button:hover{background-color:#ffffff; color: #ff0505;}
+
+ #recommend{width:1200px; height:400px; background-color: aqua; margin: 770px 0 0 30px; border:3px solid #999} 
+ #best{font-size: 20px; font-weight: bold; padding:15px;}
+.best {width:220px; height: 220px; background-color: #ff0303; float:left; margin: 10px 9px 0 10px;}
+.best >a >img{width: 100%; height:100%;}
+#recommend>.best >h2{font-size: 17px; margin: 10px 0 0 0px; line-height: 25px;}
+#recommend>.best >h3{font-size: 17px; margin: 10px 0 0 0px; color: #6d6d6d;}
+ 
+#section{width: 1260px; height: 3000px; background-color:#fff; margin: 30px 0 0 0px;}
+#section > ul {width:1260px; height:70px; margin: 0; background-color: #ffee00ed;}
+#section > ul > li {width:251px; height:48px; background-color:#fff; float:left; border-top:1px solid #b9b9b9; border-bottom:1px solid #000; font-size:15px;}
+#section > ul > li > a {float:left; color:#000; text-decoration: none; padding: 20px; text-align:center; }
+
+
+#section > ul > li:nth-child(2) {background-color:#fff; border:1px solid #000; border-bottom:none; color:#000;}
+#section > h2 {float:left; padding:50px 20px 0px; font-size:19px;}
+#section > #detail_box {width:100%; height:270px;}
+#section > #detail_box > ul {display:block; width:1100px; height:280px;  margin:100px 35px 0px;}
+#section > #detail_box > ul > li {font-size:13px; list-style:disc; margin:7px 10px; color:#666;}
+
+#qna{width: 1260px; height: 500px; background-color: rgb(255, 252, 237); margin: 30px 0 0 0px;}
+ #review{width: 1260px; height: 900px; background-color: rgb(162, 191, 137); margin: 30px 0 0 0px;}
+ #inquiry{width: 1260px; height: 500px; background-color: rgb(229, 143, 162); margin: 30px 0 0 0px;}
